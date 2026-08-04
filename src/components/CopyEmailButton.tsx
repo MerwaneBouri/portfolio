@@ -31,7 +31,7 @@ const CopyEmailButton = ({ email }: CopyEmailButtonProps) => {
         onClick={handleCopy}
         className="px-4 py-2 text-sm font-medium border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
       >
-        {copied ? "Email copié" : "Copier l'email"}
+        {copied ? "Copié" : "Copier l'E-mail"}
       </button>
       {error ? <p className="text-sm text-red-600">{error}</p> : null}
     </div>
